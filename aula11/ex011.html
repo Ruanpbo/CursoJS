@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alfandega</title>
+</head>
+<body>
+    <h1>Sua Nacionalidade</h1> <!-- Cabeçãlho-->
+    Vamos verificar sua Nacionalidade <input type="text" name="regiao" id="regiao"> <!--Criando a caixa de texto-->
+    <input type="button" value="Analisar" onclick="clicar()"> <!--Criando o botao -->
+    <div id="res">Resultado: </div> 
+
+    <script>   
+        function clicar(){  // criando a função botao para interação
+            var txt = window.document.querySelector('input#regiao') // criando variavel para ligar com a caixa de texto
+            var res = window.document.querySelector('div#res') // criando variavel para receber e exibir a resposta
+            var pais = (txt.value) // variavel para receber os dados da caixa de texto
+            res.innerHTML += `O seu país é ${pais}` // imprimindo na tela o texto recebido pela caixa de texto.
+            if (pais != 'Brasil'){ // usando condicionais if e else para definir uma segunda msg baseado em resposta ao usuario.
+                res.innerHTML += '<p>Você é Estrangeiro!<p/>'
+            } else {
+                res.innerHTML += '<p>Você é Brasileiro!<p/>'
+            }
+        }
+    </script>
+</body>
+</html>
