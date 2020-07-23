@@ -1,0 +1,29 @@
+body {
+    background: rgb(70, 142, 236);
+    font: normal 15pt Arial;
+}
+
+header {
+    color: white; /*Mudando a cor do texto*/
+    text-align: center; /*Centralizando o Text no site*/
+}
+
+section {
+    background: white; /*Criando uma box com cor branca*/
+    border-radius: 10px; /*Criar bordas redondas na box*/
+    padding: 15px; /*Espaco do texto dentro da box*/
+    width: 500px; /*Mudar a largura da box*/
+    margin: auto; /*Deixar a box no cetntro do site*/
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.363); /*Colocando sobra na box*/
+}
+
+div {
+    text-align: center; /*Centralizar o texto*/
+    padding: 8ffpx; /*Espacamento*/
+}
+
+footer {
+    color: white; /*Mudando a cor do texto*/
+    text-align: center; /*Centralizando o Text no site*/
+    font-style: italic; /*Mudando a fonte do cabecalho*/
+}
