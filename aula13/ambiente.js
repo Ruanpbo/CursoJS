@@ -13,7 +13,7 @@ var c = 1
 
 console.log('Tudo bem?')*/
 
-/*var pizza = 'pequena'
+/* var pizza = 'pequena'
 var c = 1
 if ( pizza == 'broto') {
     while (c <= 4){
