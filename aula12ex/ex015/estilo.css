@@ -13,7 +13,7 @@ section {
     border-radius: 10px; /*Criar bordas redondas na box*/
     padding: 15px; /*Espaco do texto dentro da box*/
     width: 500px; /*Mudar a largura da box*/
-    margin: auto; /*Deixar a box no cetntro do site*/
+    margin: auto; /*Deixar a box no centro do site*/
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.363); /*Colocando sobra na box*/
 }
 
