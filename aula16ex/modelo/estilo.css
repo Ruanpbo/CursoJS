@@ -16,6 +16,9 @@ section {
     margin: auto; /*Deixar a box no cetntro do site*/
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.363); /*Colocando sobra na box*/
 }
+select#flista{
+    width: 150px;
+}
 
 footer {
     color: white; /*Mudando a cor do texto*/
